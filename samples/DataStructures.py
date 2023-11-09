@@ -33,7 +33,7 @@ list[0] = 'strawberry'
 
 print()
 
-# Una lista può contenere elementi di tipo di verso
+# Una lista può contenere elementi di tipo diverso
 # Un elemento della lista può essere a sua volta una lista
 nums = [1, 2, [10, 11], 'ciao']
 
@@ -111,8 +111,8 @@ print(nome + " " + cognome)
 # print(nome, cognome, numero)
 print()
 
-'''Potremmo scrivere una funzione che restituisca due valori: la somma e la differenza di due numeri. 
-La tupla ci consente di raggruppare insieme quanti più valori vogliamo e di restituire un solo oggetto
+'''Potremmo scrivere una funzione che restituisce due valori: la somma e la differenza di due numeri. 
+La tupla ci consente di raggruppare insieme quanti valori vogliamo e di restituire un solo oggetto
  di tipo tuple tramite return :'''
 
 
@@ -128,7 +128,7 @@ print(output)
 print()
 
 '''Un set è una collezione di elementi non ordinata. A differenza di liste e tuple, ogni
-elemento del set deve essere unico e non modificabile. Tuttavia l'oggetto di tipo set è modificabile.
+elemento del set deve essere unico. L'oggetto di tipo set è modificabile.
 Un oggetto di tipo set si definisce racchiudendo gli elementi che lo compongono tra parentesi graffe { } , separati da , .
 Un altro modo per costruire un set è quello di usare la funzione built-in set() .'''
 
@@ -168,15 +168,18 @@ print()
 newSetNumbers.discard(2)
 newSetNumbers.remove(3)
 
+'''The discard() method removes the specified item from the set. This method is different from the remove() method, 
+because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.'''
+
 print(newSetNumbers)
 print()
 
 '''Dizionari
 Finora, escludendo i set, abbiamo sempre parlato di sequenze: tipi composti che permettono di accedere ai singoli elementi che li compongono tramite indici interi.
-I dizionari rappresentano un tipo composto (compund data type) diverso. Il tipo dict rappresenta quello che viene definito built-in mapping type di Python.
+I dizionari rappresentano un tipo composto (compound data type) diverso. Il tipo dict rappresenta quello che viene definito built-in mapping type di Python.
 Un dizionario mappa una serie di chiavi (keys) ai relativi valori (values). La chiave può essere di qualunque tipo non modificabile, solitamente si usa il tipo str , 
 mentre il valore può assumere qualunque tipo. Un oggetto di tipo dict si definisce racchiudendo gli elementi che lo compongono tra parentesi graffe { } , separati da , . 
-Ogni elemento che compone il dizionario è una coppia chiave-valore, definita dalla sintassi chiave:valore :'''
+Ogni elemento che compone il dizionario è una coppia chiave-valore, definita dalla sintassi chiave:valore .'''
 
 # Inizializziamo un Dictionary
 inventory = {"banane": 7, "lamponi": 11}
