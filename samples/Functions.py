@@ -44,6 +44,8 @@ str = upAndConcat2('Marco','Rossi')
 print(str)
 
 
+#E di seguito qualche altro esempio di semplici funzioni
+
 def sum(a, b):  
     return a + b
 
