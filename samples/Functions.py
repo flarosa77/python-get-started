@@ -13,6 +13,13 @@ def stampa(msg):
     print(msg)
     print()
 
+def moreOps(a, b):
+    c = a + b
+    d = a - b
+    return (c, d)
+
+
+
 
 c = somma(10, 30)
 
@@ -23,3 +30,8 @@ d = fattoriale(7)
 print(d)
 
 stampa("Hello world!")
+
+tuple = (sum, diff) = moreOps(10, 5)
+
+print(sum,'\n')
+print(diff,'\n')
