@@ -1,3 +1,22 @@
+def moreTimes():
+  for i in range(0,50):
+    print("Hello World!",'\n')
+
+moreTimes()
+
+'''Volendo decidere quante volte stampare a schermo lo stesso messaggio aggiungiamo un parametro di input'''
+
+def moreTimes(num):
+  for i in range(0,num):
+    print("Hello World!",'\n')  
+
+#moreTimes(10)
+
+num = int(input('How many times you want repeat?\n'))
+
+moreTimes(num)
+
+
 def somma(a, b):  # usa def per creare una funzione
     return a + b
 
