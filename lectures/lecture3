@@ -8,3 +8,12 @@ https://www.youtube.com/watch?v=ecHlMbV3Mhg
 Resources
 
 - https://github.com/flarosa77/python-get-started/blob/main/samples/DataStructures.py
+
+
+
+Esercitazione sulle Liste
+
+Realizza un programma che legge da tastiera dei nomi e li memorizza in una lista.
+Il programma interrompe l'acquisizione quando l'utente inserisce una stringa vuota.
+Dopo aver completato questa prima fase, il programma riordina la lista in ordine alfabetico e 
+successivamente stampa il suo contenuto in ordine inverso (dall'ultimo al primo elemento).
